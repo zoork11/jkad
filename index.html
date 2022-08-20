@@ -1,21 +1,23 @@
-<script type="importmap">
-    {
-      "imports": {
-        "vue": "https://unpkg.com/vue@3/dist/vue.esm-browser.prod.js"
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>just kidding all down</title>
+</head>
+
+<script src="https://unpkg.com/vue@3/dist/vue.global.prod.js"></script>
+
+<div id="app">{{ message }}</div>
+
+<script>
+  const { createApp } = Vue
+
+  createApp({
+    data() {
+      return {
+        message: 'coming soon ;)'
       }
     }
-  </script>
-  
-  <div id="app">{{ message }}</div>
-  
-  <script type="module">
-    import { createApp } from 'vue'
-  
-    createApp({
-      data() {
-        return {
-          message: 'Coming soon ;)'
-        }
-      }
-    }).mount('#app')
-  </script>
+  }).mount('#app')
+</script>
+</html>
