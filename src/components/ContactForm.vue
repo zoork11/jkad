@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-card color="transparent" style="max-width: 800px;">
-      <v-card-title>Contact</v-card-title>
+      <v-card-title>contact</v-card-title>
       <v-divider></v-divider>
       <v-card-text>
         <v-form>
