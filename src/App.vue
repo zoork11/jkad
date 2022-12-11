@@ -17,14 +17,14 @@
     <v-footer padless fixed color="transparent">
       <v-card tile width="100%" height="60px" color="transparent">
         <v-card-text class="d-flex align-center justify-center">
-          &copy; you footer :)
-          <v-btn icon href="" target="_blank">
+          &copy; just knows about debugging
+          <v-btn icon href="https://github.com/zoork11" target="_blank">
             <v-icon>mdi-github</v-icon>
           </v-btn>
-          <v-btn icon href="" target="_blank">
+          <v-btn icon href="https://social.tchncs.de/@zoork" target="_blank">
             <v-icon>mdi-mastodon</v-icon>
           </v-btn>
-          <v-btn icon href="" target="_blank">
+          <v-btn icon href="https://app.hackthebox.com/profile/283872" target="_blank">
             <v-icon>mdi-cube-outline</v-icon>
           </v-btn>
         </v-card-text>
