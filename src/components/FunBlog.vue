@@ -1,22 +1,24 @@
 <template>
   <v-container>
-    <v-card color="transparent">
-      <v-card-title>blog</v-card-title>
-      <v-divider></v-divider>
-      <section v-for="post in posts" :key="post">
-        <v-card color="transparent">
-        <v-card-actions>
-          <v-btn text v-bind:href="`/post/${post.default.id}`">
-            {{post.default.title}}
-          </v-btn>
+    <v-row justify="center">
+      <v-card color="transparent" max-width="1000">
+        <v-card-title>blog</v-card-title>
+        <v-divider></v-divider>
+        <section v-for="post in posts" :key="post">
+          <v-card color="transparent">
+          <v-card-actions>
+            <v-btn text v-bind:href="`/post/${post.default.id}`">
+              {{post.default.title}}
+            </v-btn>
 
-          <v-btn icon v-bind:href="`/post/${post.default.id}`">
-            <v-icon>mdi-chevron-right</v-icon>
-          </v-btn>
-        </v-card-actions>
-        </v-card>
-      </section>
-    </v-card>
+            <v-btn icon v-bind:href="`/post/${post.default.id}`">
+              <v-icon>mdi-chevron-right</v-icon>
+            </v-btn>
+          </v-card-actions>
+          </v-card>
+        </section>
+      </v-card>
+    </v-row>
   </v-container>
 </template>
 

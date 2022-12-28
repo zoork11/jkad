@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar app color="transparent">
+    <v-app-bar app hide-on-scroll :color="appBarColor">
       <template v-slot:extension>
         <v-tabs centered :value="route">
           <v-tab href=/>blog</v-tab>
@@ -9,14 +9,16 @@
         </v-tabs>
       </template>
     </v-app-bar>
-
+    
     <v-main>
-      <router-view></router-view>
+      <v-container fluid>
+        <router-view></router-view>
+      </v-container>
     </v-main>
 
-    <v-footer padless fixed color="transparent">
-      <v-card tile width="100%" height="60px" color="transparent">
-        <v-card-text class="d-flex align-center justify-center">
+    <v-footer app padless fixed>
+      <v-card tile width="100%" height="50px" color="grey darken-3">
+        <v-card-text class="pa-2 d-flex align-center justify-center">
           &copy; just knows about debugging
           <v-btn icon href="https://github.com/zoork11" target="_blank">
             <v-icon>mdi-github</v-icon>
@@ -38,9 +40,26 @@ export default {
   name: 'App',
   data() {
     return {
-      route: this.$route.path
+      route: this.$route.path,
+      appBarColor: "transparent",
      };
+  },
+  mounted() {
+    window.addEventListener('scroll', this.updateScroll);
+  },
+  methods: {
+    updateScroll() {
+      if(window.scrollY < 100)
+      {
+        this.appBarColor="transparent"
+      }
+      else
+      {
+        this.appBarColor="grey darken-3"
+      }
+      console.log(this.scrollPosition)
   }
+}
 };
 </script>
 
