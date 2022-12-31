@@ -1,7 +1,7 @@
 <template>
   <v-container>
     <v-row justify="center">
-      <v-card color="transparent" max-width="1000">
+      <v-card color="transparent" max-width="1000" width="100%">
         <v-card-title>blog</v-card-title>
         <v-divider></v-divider>
         <section v-for="post in posts" :key="post">

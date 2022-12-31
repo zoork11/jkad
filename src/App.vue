@@ -49,7 +49,7 @@ export default {
   },
   methods: {
     updateScroll() {
-      if(window.scrollY < 100)
+      if(window.scrollY < 20)
       {
         this.appBarColor="transparent"
       }

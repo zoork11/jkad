@@ -1,14 +1,14 @@
 <template>
   <v-container>
-    <v-row justify='center'>
-      <v-card color="transparent" max-width="1000">
+    <v-row justify="center">
+      <v-card color="transparent" max-width="1000" width="100%">
         <v-card-title>contact</v-card-title>
         <v-divider></v-divider>
         <v-card-text>
           <v-form>
             <v-text-field outlined label="name" background-color="grey darken-1"/>
             <v-text-field outlined label="email" background-color="grey darken-1"/>
-            <v-textarea outlined label="your message" background-color="grey darken-1"/>
+            <v-textarea readonly persistent-placeholder placeholder="I was to lazy to set this up just send a mail or reach out through social media :)" outlined label="your message" background-color="grey darken-1"/>
             <v-btn>send</v-btn>
           </v-form>
         </v-card-text>
