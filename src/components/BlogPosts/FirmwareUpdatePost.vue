@@ -6,7 +6,7 @@
           {{$options.title}}
         </v-card-title>
         <v-card-text>
-          Please add stuff here :)
+          Coming soon.
         </v-card-text>
       </v-card>
     </v-row>
