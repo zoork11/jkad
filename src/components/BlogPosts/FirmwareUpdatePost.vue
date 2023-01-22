@@ -25,7 +25,7 @@
           </p>
           <p>
           <v-row justify="center">
-          <v-img justify="center" max-height="300" max-width="500" src="../../assets/flash_content.png"></v-img>
+          <v-img justify="center" max-height="300" max-width="500" min-width="50" src="../../assets/flash_content.png"></v-img>
           </v-row>
           </p>
           <p class="text-body-1">
@@ -39,7 +39,7 @@
           </p>
           <p>
           <v-row justify="center">
-          <v-img justify="center" max-height="300" max-width="500" src="../../assets/revisions.png"></v-img>
+          <v-img justify="center" max-height="300" max-width="500" min-width="50" src="../../assets/revisions.png"></v-img>
           </v-row>
           </p>
           <p class="text-body-1">
@@ -55,7 +55,7 @@
           </p>
           <p>
           <v-row justify="center">
-          <v-img justify="center" max-height="300" max-width="500" src="../../assets/flash1.png"></v-img>
+          <v-img justify="center" max-height="300" max-width="500" min-width="50" src="../../assets/flash1.png"></v-img>
           </v-row>
           </p>
           <p class="text-body-1">
@@ -63,7 +63,7 @@
           </p>
           <p>
           <v-row justify="center">
-          <v-img justify="center" max-height="300" max-width="500" src="../../assets/flash2.png"></v-img>
+          <v-img justify="center" max-height="300" max-width="500" min-width="50" src="../../assets/flash2.png"></v-img>
           </v-row>
           </p>
           <p class="text-h5">
@@ -79,7 +79,7 @@
           </p>
           <p>
           <v-row justify="center">
-          <v-img justify="center" max-height="300" max-width="500" src="../../assets/firmware_update.png"></v-img>
+          <v-img justify="center" max-height="300" max-width="500" min-width="50" src="../../assets/firmware_update.png"></v-img>
           </v-row>
           </p>
           <p class="text-body-1">
@@ -87,7 +87,7 @@
           </p>
           <p>
           <v-row justify="center">
-          <v-img justify="center" max-height="300" max-width="500" src="../../assets/stepping.png"></v-img>
+          <v-img justify="center" max-height="300" max-width="500" min-width="50" src="../../assets/stepping.png"></v-img>
           </v-row>
           </p>
           <p class="text-body-1">
@@ -97,7 +97,7 @@
           </p>
           <p>
           <v-row justify="center">
-          <v-img justify="center" max-height="300" max-width="500" src="../../assets/dafuq.gif"></v-img>
+          <v-img justify="center" max-height="300" max-width="500" min-width="50" src="../../assets/dafuq.gif"></v-img>
           </v-row>
           </p>
           <p class="text-body-1">
@@ -114,7 +114,7 @@
           </p>
           <p>
           <v-row justify="center">
-          <v-img justify="center" max-height="300" max-width="500" src="../../assets/flash_layout.png"></v-img>
+          <v-img justify="center" max-height="300" max-width="500" min-width="50" src="../../assets/flash_layout.png"></v-img>
           </v-row>
           </p>
           <p class="text-body-1">
@@ -122,7 +122,7 @@
           </p>
           <p>
           <v-row justify="center">
-          <v-img justify="center" max-height="300" max-width="500" src="../../assets/magic.png"></v-img>
+          <v-img justify="center" max-height="300" max-width="500" min-width="50" src="../../assets/magic.png"></v-img>
           </v-row>
           </p>
           <p class="text-body-1">

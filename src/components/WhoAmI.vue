@@ -18,7 +18,7 @@
           </p>
           <p>
           <v-row justify="center">
-          <v-img justify="center" max-height="300" max-width="500" src="../assets/hacker.jpg"></v-img>
+          <v-img justify="center" max-height="300" max-width="500" min-width="50" src="../assets/hacker.jpg"></v-img>
           </v-row>
           </p>
           <p class="text-body-1">
@@ -28,7 +28,7 @@
           </p>
           <p>
           <v-row justify="center">
-          <v-img justify="center" max-height="300" max-width="500" src="../assets/dota.gif"></v-img>
+          <v-img justify="center" max-height="300" max-width="500" min-width="50" src="../assets/dota.gif"></v-img>
           </v-row>
           </p>
           <p class="text-body-1">
@@ -36,7 +36,7 @@
           </p>
           <p>
           <v-row justify="center">
-          <v-img justify="center" max-height="300" max-width="500" src="../assets/climbing.gif"></v-img>
+          <v-img justify="center" max-height="300" max-width="500" min-width="50" src="../assets/climbing.gif"></v-img>
           </v-row>
           </p>
           <p class="text-body-1">
