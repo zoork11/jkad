@@ -18,7 +18,7 @@
           </p>
           <p>
           <v-row justify="center">
-          <v-img justify="center" max-height="300" max-width="500" min-width="50" src="../assets/hacker.jpg"></v-img>
+          <v-img justify="center" max-height="300" max-width="500" min-width="50" src="../assets/hacker.jpg" srcset="../assets/hacker_m.jpg 480w"></v-img>
           </v-row>
           </p>
           <p class="text-body-1">
