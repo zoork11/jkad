@@ -5,14 +5,13 @@
         <v-card-title>blog</v-card-title>
         <v-divider></v-divider>
         <section v-for="post in posts" :key="post">
-          <v-card color="transparent">
+          <v-card max-width="1000" width="100%" color="transparent">
           <v-card-actions>
-            <v-btn text v-bind:href="`/post/${post.default.id}`">
-              {{post.default.title}}
-            </v-btn>
-
-            <v-btn icon v-bind:href="`/post/${post.default.id}`">
-              <v-icon>mdi-chevron-right</v-icon>
+            <v-btn text max-width="1000" width="100%" v-bind:href="`/post/${post.default.id}`">
+              <span class="text-wrap">
+                {{post.default.title}}
+                <v-icon>mdi-chevron-right</v-icon>
+              </span>
             </v-btn>
           </v-card-actions>
           </v-card>
@@ -32,5 +31,11 @@ export default {
      };
   }
 }
-
 </script>
+
+<style>
+.v-btn > span {
+  width: 100%;
+  text-align: center !important;
+}
+</style>
