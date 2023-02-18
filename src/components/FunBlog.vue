@@ -2,7 +2,10 @@
   <v-container>
     <v-row justify="center">
       <v-card color="transparent" max-width="1000" width="100%">
+        <v-img height="110" src="../assets/header.png" cover class="text-white">
         <v-card-title>blog</v-card-title>
+        <v-card-subtitle>does anyone care</v-card-subtitle>
+        </v-img>
         <v-divider></v-divider>
         <section v-for="post in posts" :key="post">
           <v-card max-width="1000" width="100%" color="transparent">

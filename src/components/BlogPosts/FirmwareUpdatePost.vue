@@ -2,12 +2,14 @@
   <v-container>
     <v-row justify="center">
       <v-card color="transparent" max-width="1000" width="100%">
+        <v-img height="110" src="../../assets/header.png" cover class="text-white">
         <v-card-title>
           {{$options.title}}
         </v-card-title>
         <v-card-subtitle>
         This is a story about finding what I would call my favorite bug.
         </v-card-subtitle>
+        </v-img>
         <v-card-text>
           <p class="text-h5">
           Introduction

@@ -2,8 +2,10 @@
   <v-container>
     <v-row justify="center">
       <v-card color="transparent" max-width="1000" width="100%">
+        <v-img height="100" src="../assets/header.png" cover class="text-white">
         <v-card-title>who am i</v-card-title>
         <v-card-subtitle>random guy doing IT stuff</v-card-subtitle>
+        </v-img>
         <v-divider></v-divider>
         <v-card-text>
           <p class="text-body-1">
@@ -51,8 +53,5 @@
 <script>
   export default {
     name: 'WhoAmI',
-    data: () => ({
-      test: 'center'
-    }),
   }
 </script>
