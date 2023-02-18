@@ -4,6 +4,7 @@ const config: PlaywrightTestConfig = {
   webServer: {
     command: 'npm run serve',
     url: 'http://localhost:8080',
+    timeout: 120000,
   },
 };
 
